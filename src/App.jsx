@@ -2,6 +2,7 @@ import "./App.css";
 
 import {
   Typography,
+  Slider,
   AppBar,
   Card,
   CardContent,
@@ -49,11 +50,16 @@ function App() {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    See my photos
+                    secondary action
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant="outlined" color="primary">
+                    See my photos
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant="contained" color="primary">
                     secondary action
                   </Button>
                 </Grid>
@@ -61,6 +67,9 @@ function App() {
             </div>
           </Container>
         </div>
+        <Container>
+          <Grid></Grid>
+        </Container>
       </main>
     </>
   );
