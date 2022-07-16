@@ -10,6 +10,7 @@ import {
   CssBaseline,
   Toolbar,
   Grid,
+  Button,
   Container,
 } from "@mui/material";
 import { PhotoCamera } from "@mui/icons-material";
@@ -44,6 +45,20 @@ function App() {
               hello everyone I'm trying to make this paragraph as long as
               possiable to see if this site worth all that reputation
             </Typography>
+            <div>
+              <Grid container spacing={2} justify="center">
+                <Grid item>
+                  <Button variant="contained" color="primary">
+                    See my photos
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant="outlined" color="primary">
+                    secondary action
+                  </Button>
+                </Grid>
+              </Grid>
+            </div>
           </Container>
         </div>
       </main>
