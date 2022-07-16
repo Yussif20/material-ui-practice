@@ -67,8 +67,33 @@ function App() {
             </div>
           </Container>
         </div>
-        <Container>
-          <Grid></Grid>
+        <Container maxWidth="md">
+          <Grid container spacing={4}>
+            <Grid item>
+              <Card>
+                <CardMedia
+                  image="http://source.unsplash.com/random"
+                  title="image title"
+                />
+                <CardContent>
+                  <Typography variant="h5" gutterBottom>
+                    heading
+                  </Typography>
+                  <Typography variant="h5" gutterBottom>
+                    this is just some words that i don't know
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button variant="contained" size="small" color="primary">
+                    view
+                  </Button>
+                  <Button variant="contained" size="small" color="primary">
+                    edit
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+          </Grid>
         </Container>
       </main>
     </>
