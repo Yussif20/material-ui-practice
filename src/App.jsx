@@ -90,6 +90,12 @@ function App() {
                   <Button variant="contained" size="small" color="primary">
                     edit
                   </Button>
+                  <Button variant="contained" size="small" color="primary">
+                    edit
+                  </Button>{" "}
+                  <Button variant="contained" size="small" color="primary">
+                    edit
+                  </Button>
                 </CardActions>
               </Card>
             </Grid>
